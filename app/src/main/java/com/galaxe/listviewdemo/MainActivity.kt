@@ -33,15 +33,15 @@ class MainActivity : AppCompatActivity(), AdapterView.OnItemClickListener {
         newString += selectedColor
         color.text = newString
         when (selectedColor){
-            "black" -> color.setTextColor( ResourcesCompat.getColor(getResources(), R.color.black, null))
-            "red" -> color.setTextColor( ResourcesCompat.getColor(getResources(), R.color.red, null))
-            "orange" -> color.setTextColor( ResourcesCompat.getColor(getResources(), R.color.orange, null))
-            "blue" -> color.setTextColor( ResourcesCompat.getColor(getResources(), R.color.blue, null))
-            "green" -> color.setTextColor( ResourcesCompat.getColor(getResources(), R.color.green, null))
+            "Black" -> color.setTextColor( ResourcesCompat.getColor(getResources(), R.color.black, null))
+            "Red" -> color.setTextColor( ResourcesCompat.getColor(getResources(), R.color.red, null))
+            "Orange" -> color.setTextColor( ResourcesCompat.getColor(getResources(), R.color.orange, null))
+            "Blue" -> color.setTextColor( ResourcesCompat.getColor(getResources(), R.color.blue, null))
+            "Green" -> color.setTextColor( ResourcesCompat.getColor(getResources(), R.color.green, null))
         }
         //color.setTextColor( ResourcesCompat.getColor(getResources(), R.color.(p0?.getItemAtPosition(p2) as String), null)) // (p0?.getItemAtPosition(p2) as String))
         //var selecteditem =
-        Toast.makeText(this, "Selected Item is ${p0?.getItemAtPosition(p2) as String}.", Toast.LENGTH_SHORT).show()
+        //Toast.makeText(this, "Selected Item is ${p0?.getItemAtPosition(p2) as String}.", Toast.LENGTH_SHORT).show()
         //var itemselected = p0?.getItemAtPosition(p2)
 
     }
